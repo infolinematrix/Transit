@@ -1,11 +1,6 @@
 # Transit
 Easy file uploading and downloading for Laravel 5.
 
----
-[![Build Status](https://travis-ci.org/kenarkose/Transit.svg?branch=master)](https://travis-ci.org/kenarkose/Transit)
-[![Total Downloads](https://poser.pugx.org/kenarkose/Transit/downloads)](https://packagist.org/packages/kenarkose/Transit)
-[![Latest Stable Version](https://poser.pugx.org/kenarkose/Transit/version)](https://packagist.org/packages/kenarkose/Transit)
-[![License](https://poser.pugx.org/kenarkose/Transit/license)](https://packagist.org/packages/kenarkose/Transit)
 ## Features
 - Compatible with Laravel 5
 - Clean API for uploading and downloading files
@@ -23,7 +18,7 @@ Installing Transit is simple.
     ```js
     {
         "require": {
-            "kenarkose/transit": "~2.1"
+            "reactor/transit": "dev-master"
         }
     }
     ```
@@ -94,4 +89,4 @@ You may use separate models for Upload and Download services as well as deleting
 But you must implement `Reactor\Transit\Contract\Uploadable`, `Reactor\Transit\Contract\Downloadable` and `Reactor\Transit\Contract\Deletable` interfaces respectively. Furthermore, you may use `Reactor\Transit\File\Uploadable`, `Reactor\Transit\File\Downloadable` and `Reactor\Transit\File\Deletable` traits for providing required functionality to Eloquent models.
 
 ## License
-Transit is released under [MIT License](https://github.com/kenarkose/Transit/blob/master/LICENSE).
+Transit is released under [MIT License](https://github.com/infolinematrix/Transit/blob/master/LICENSE).
